@@ -16,6 +16,6 @@ class BookSeeder extends Seeder
     public function run()
     {
         $fact = new BookFactory();
-        $fact->count(1000)->create();
+        $fact->count(10)->create();
     }
 }
